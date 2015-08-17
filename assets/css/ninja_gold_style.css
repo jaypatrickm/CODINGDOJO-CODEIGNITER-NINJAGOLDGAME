@@ -1,0 +1,28 @@
+body {
+	width: 1425px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+form {
+	width: 350px;
+	height: 350px;
+	border: 1px solid red;
+	display: inline-block;
+}
+form#start-over {
+	width: 70px;
+	height: 18px;
+	display: block;
+}
+ul {
+	height: 128px;
+	overflow: scroll;
+	list-style-type: none;
+	border: 1px solid red;
+	width: 1378px;
+}
+ul li {
+	color: green;
+}
+ul li.red {
+	color: red;
+}
